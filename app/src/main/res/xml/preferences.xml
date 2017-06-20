@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="sync_category"
+        android:title="Sync Information">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="perform_sync"
+            android:summary="Automatically Add"
+            android:title="Enable to Auto add" />
+
+        <EditTextPreference
+            android:defaultValue="@string/file_name"
+            android:dependency="perform_sync"
+            android:dialogMessage="Enter Complete Name of Record"
+            android:dialogTitle="Your Record name"
+            android:inputType="textCapWords"
+            android:key="full_name"
+            android:summary="Default name is MyRecord"
+            android:title="Name of Record" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notification_manager"
+            android:summary="Enable Notification while recording"
+            android:title="Enable Notification" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="personal_category"
+        android:title="Personal Informations">
+
+
+        <EditTextPreference
+            android:defaultValue=" "
+            android:dialogMessage="Enter Your Email Address"
+            android:dialogTitle="Enter Your Email Address"
+            android:inputType="textEmailAddress"
+            android:key="email_address"
+            android:summary="Enter Your Email Address"
+            android:title="Email Address" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="custom_category"
+        android:title="Customisations">
+
+
+        <RingtonePreference
+            android:dialogMessage="Customise Notification Ringtone for you"
+            android:dialogTitle="Notification Ringtone"
+            android:key="notification_ringtone"
+            android:summary="Customise Notification Ringtone for you"
+            android:title="Notification Ringtone" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

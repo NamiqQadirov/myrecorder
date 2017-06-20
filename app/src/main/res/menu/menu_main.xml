@@ -1,0 +1,60 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!-- View Open Source Licenses -->
+    <item
+        android:id="@+id/cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/a"
+
+        android:orderInCategory="100"
+        android:title="CANCEL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/aa"
+
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/aaa"
+
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_licenses2"
+        android:orderInCategory="100"
+        android:title="Sceduler"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/action_licenses"
+        android:title="@string/action_licenses"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_launcher">
+
+
+    </item>
+
+
+</menu>
