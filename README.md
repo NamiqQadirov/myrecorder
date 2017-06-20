@@ -7,7 +7,7 @@ Easy Sound Recorder
 
 Screenshots:
  
-https://github.com/NamiqQadirov/myrecorder/blob/master/1.png
+![alt tag](https://github.com/NamiqQadirov/myrecorder/blob/master/1.png)![alt tag](https://github.com/NamiqQadirov/myrecorder/blob/master/2.png)![alt tag](https://github.com/NamiqQadirov/myrecorder/blob/master/3.png)![alt tag](https://github.com/NamiqQadirov/myrecorder/blob/master/4.png)![alt tag](https://github.com/NamiqQadirov/myrecorder/blob/master/5.png)![alt tag](https://github.com/NamiqQadirov/myrecorder/blob/master/6.png)
 
 Credits / Libraries used:
 
