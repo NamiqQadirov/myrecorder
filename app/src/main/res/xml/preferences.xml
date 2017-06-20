@@ -44,19 +44,6 @@
     </PreferenceCategory>
 
 
-    <PreferenceCategory
-        android:key="custom_category"
-        android:title="Customisations">
-
-
-        <RingtonePreference
-            android:dialogMessage="Customise Notification Ringtone for you"
-            android:dialogTitle="Notification Ringtone"
-            android:key="notification_ringtone"
-            android:summary="Customise Notification Ringtone for you"
-            android:title="Notification Ringtone" />
-
-
-    </PreferenceCategory>
+    
 
 </PreferenceScreen>
