@@ -7,7 +7,7 @@ Easy Sound Recorder
 
 Screenshots:
  
-
+https://github.com/NamiqQadirov/myrecorder/blob/master/1.png
 
 Credits / Libraries used:
 
