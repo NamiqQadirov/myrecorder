@@ -2,7 +2,7 @@ Android Voice Recorder
 =============
 
 <p>This is simple android sound recorder</p>
-<h3>This project have used <a href="https://www.w3schools.com/html/"> a project </a> from github and changed most of specification of this simple project. 
+This project have used <a href="https://www.w3schools.com/html/"> a project </a> from github and changed most of specification of this simple project. 
  
 
 Screenshots:
