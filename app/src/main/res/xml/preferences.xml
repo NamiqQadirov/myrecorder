@@ -5,7 +5,7 @@
         android:title="Sync Information">
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="perform_sync"
             android:summary="Automatically Add"
             android:title="Enable to Auto add" />
@@ -44,6 +44,14 @@
     </PreferenceCategory>
 
 
-    
+    <PreferenceCategory
+        android:key="custom_category"
+        android:title="Customisations">
+
+
+         
+
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
